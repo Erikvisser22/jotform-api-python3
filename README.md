@@ -2,6 +2,12 @@ jotform-api-python
 ===============
 [JotForm API](http://api.jotform.com/docs/) - Python Client
 
+### Erik Visser: Python3+ urlopen bug fix
+
+Python urllib.error.httperror: http error 403: forbidden
+
+The easy way to resolve the error is by passing a valid user-agent as a header parameter. Added 'User-Agent': 'Mozilla/5.0' to the headers. Via: https://itsmycode.com/python-urllib-error-httperror-http-error-403-forbidden/
+
 
 ### Installation
 
@@ -12,7 +18,7 @@ Install via git clone:
         
 Install via pip (latest version)
 
-        $ pip install git+git://github.com/jotform/jotform-api-python.git
+        $ pip install git+git://github.com/Erikvisser22/jotform-api-python3.git
 
 ### Documentation
 
